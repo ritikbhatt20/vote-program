@@ -8,7 +8,7 @@ import {
 } from "@solanaturbine/poseidon";
 
 export default class VoteProgram {
-  static PROGRAM_ID = new Pubkey("11111111111111111111111111111111");
+  static PROGRAM_ID = new Pubkey("66DYCRZmMJSgGGPQQkym6PZcaW1VNZF1hfg6b4Y1Nrk4");
 
   // Pass all the accounts we need as the parameters
   initialize(state: VoteState, user: Signer): Result {
